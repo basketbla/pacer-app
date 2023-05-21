@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
+
+#app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #CDD5D1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#panel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#running-panel {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.time-label {
+  font-size: 2rem;
+  margin-top: 10%;
+  font-family: 'Nunito';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#start-button {
+  background-color: #ddf8e8;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  font-family: 'Nunito';
+  font-size: 2rem;
+}
+
+#countdown {
+  font-size: 8rem;
+  font-family: 'Nunito';
+}
+
+#timer {
+  font-size: 8rem;
+  font-family: 'Nunito';
 }
