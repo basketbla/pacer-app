@@ -17,9 +17,6 @@ const backgroundColors = {
 }
 
 function App() {
-
-  const [showPanel, setShowPanel] = useState(true);
-  const [showRunningPanel, setShowRunningPanel] = useState(false);
   const [timeOn, setTimeOn] = useState('00:20');
   const [timeOff, setTimeOff] = useState('00:20');
   const [totalTime, setTotalTime] = useState('05:00');
